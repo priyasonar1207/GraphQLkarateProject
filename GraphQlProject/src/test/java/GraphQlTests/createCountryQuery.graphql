@@ -1,0 +1,9 @@
+mutation {
+  insert_users(objects: {name: "Priyanka"}) {
+    returning {
+      name
+      rocket
+      timestamp
+    }
+  }
+}
